@@ -7,7 +7,7 @@
       "version": "latest"
     }
   },
-  "customizations": {
+  "customizations": {my 
     "vscode": {
       "extensions": [
         "GitHub.copilot",
