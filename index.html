@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Scientific Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="calculator">
+
+<input type="text" id="screen" placeholder="0">
+
+<div class="buttons">
+
+<button onclick="add('7')">7</button>
+<button onclick="add('8')">8</button>
+<button onclick="add('9')">9</button>
+<button onclick="add('/')">÷</button>
+
+<button onclick="add('4')">4</button>
+<button onclick="add('5')">5</button>
+<button onclick="add('6')">6</button>
+<button onclick="add('*')">×</button>
+
+<button onclick="add('1')">1</button>
+<button onclick="add('2')">2</button>
+<button onclick="add('3')">3</button>
+<button onclick="add('-')">-</button>
+
+<button onclick="add('0')">0</button>
+<button onclick="add('.')">.</button>
+<button onclick="calculate()">=</button>
+<button onclick="add('+')">+</button>
+
+<button onclick="add('Math.sin(')">sin</button>
+<button onclick="add('Math.cos(')">cos</button>
+<button onclick="add('Math.tan(')">tan</button>
+<button onclick="add('Math.sqrt(')">√</button>
+
+<button onclick="add('Math.log(')">ln</button>
+<button onclick="add('Math.log10(')">log</button>
+<button onclick="add('Math.PI')">π</button>
+<button onclick="add('Math.E')">e</button>
+
+<button onclick="power()">x²</button>
+<button onclick="clearScreen()">C</button>
+<button onclick="back()">⌫</button>
+<button onclick="plot()">📈</button>
+
+</div>
+
+<canvas id="graph"></canvas>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
